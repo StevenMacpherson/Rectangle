@@ -21,5 +21,11 @@ namespace Rectangle
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            double width = double.Parse(textBox1.Text);
+            double height = double.Parse(textBox2.Text);
+        }
     }
 }
